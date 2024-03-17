@@ -21,7 +21,7 @@
    {   
   let events_hub = test_scenario::take_shared<EventsHub>(scenario);
   let events_mut = &mut events_hub;
-   create_event(events_mut, utf8(b"Event 1"), utf8(b"The first Sui Event"),utf8(b"htttppp"),1234,2345,utf8(b"Thanh pho HoChi Minh"),1,0,test_scenario::ctx(scenario)) ;
+  //  create_event(events_mut, utf8(b"Event 1"), utf8(b"The first Sui Event"),utf8(b"htttppp"),1234,2345,utf8(b"Thanh pho HoChi Minh"),1,0,test_scenario::ctx(scenario)) ;
    test_scenario::return_shared<EventsHub>(events_hub);
    };
   test_scenario::end(scenario_val);
