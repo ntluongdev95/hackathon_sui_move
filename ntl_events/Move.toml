@@ -1,9 +1,9 @@
 [package]
 name = "ntl_events"
 version = "0.0.1"
-
+published-at ="0x33e58c111ae943e678caf15512a4c536544ebd36b700c23f43c534f3f6eef978" 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
 
 [addresses]
-ntl_events = "0x0"
+ntl_events = "0x33e58c111ae943e678caf15512a4c536544ebd36b700c23f43c534f3f6eef978"
