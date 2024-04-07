@@ -1,6 +1,7 @@
 [package]
 name = "ntl_profiles"
 version = "0.0.1"
+published-at ="0x0b8edaf991a9689e96a4de2e76c2c7a93528179585d184df3bf36e5fedf3386f" 
 #edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
@@ -9,7 +10,7 @@ version = "0.0.1"
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
 
 [addresses]
-ntl_profiles = "0x0"
+ntl_profiles = "0x0b8edaf991a9689e96a4de2e76c2c7a93528179585d184df3bf36e5fedf3386f"
 
 [dev-dependencies]
 
